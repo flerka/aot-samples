@@ -1,0 +1,4 @@
+#!/bin/bash
+start="$(date +'%s.%N')"
+$@
+awk  "BEGIN {print $(date +"%s.%N-${start}" )}" >&2
