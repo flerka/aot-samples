@@ -14,10 +14,9 @@ This repository contains sample projects for my [blog post](https://flerka.githu
 - *regular-lambda-net7* - regular .NET 7 lambda on provided.al2 with ReadyToRun off
 
 ### Console project structure
-- *Program.cs* - my sample code, naive solution for Advent of Code.
-- *aot-samples.csproj* - project file with all compilation settings.
-- *aot-samples.exe* - result application self-contained executables. 
-- *result.txt* - measurements data after 1000 execution.
+- *Program.cs* - my sample code, naive solution for Advent of Code
+- *aot-samples.csproj* - project file with all compilation settings
+- *result.txt* - measurements data after 1000 execution
 
 ### Console project execution
 I used `dotnet publish -c Release` without additional parameters to publish samples. 
